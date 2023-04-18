@@ -1,19 +1,12 @@
-import { useEffect } from 'react';
+// import { useEffect } from 'react';
 import { lazy } from 'react';
-import { useDispatch } from 'react-redux';
+// import { useDispatch } from 'react-redux';
 import { Route, Routes } from 'react-router-dom';
-import { fetchContacts } from 'redux/contacts/operations';
 import { Layout } from './Layout/Layout';
 
 const Home = lazy(() => import('../pages/Home'));
 
 export const App = () => {
-  const dispatch = useDispatch();
-
-  useEffect(() => {
-    dispatch(fetchContacts());
-  }, [dispatch]);
-
   return (
     <Routes>
       <Route path="/" element={<Layout />} />
