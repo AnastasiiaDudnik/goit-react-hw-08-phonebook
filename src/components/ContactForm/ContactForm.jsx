@@ -14,11 +14,7 @@ export const ContactForm = () => {
     <Formik
       initialValues={{ name: '', number: '' }}
       onSubmit={(values, actions) => {
-        const data = {
-          name: values.name,
-          phone: values.number,
-        };
-        dispatch(addContact(data));
+        dispatch(addContact(values));
 
         if (findContact(contacts, values)) {
           alert(`${values.name} is already in your contacts.`);
