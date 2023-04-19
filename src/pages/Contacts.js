@@ -24,6 +24,7 @@ const Contacts = () => {
       {/* <Helmet> */}
       <title>Your contacts</title>
       {/* </Helmet> */}
+      <h2>Your contacts</h2>
       {isLoading && !error && <p>Loading contacts...</p>}
       <Filter />
       <ContactList />
