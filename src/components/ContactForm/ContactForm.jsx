@@ -15,7 +15,6 @@ export const ContactForm = () => {
       initialValues={{ name: '', number: '' }}
       onSubmit={(values, actions) => {
         dispatch(addContact(values));
-
         if (findContact(contacts, values)) {
           alert(`${values.name} is already in your contacts.`);
         }
