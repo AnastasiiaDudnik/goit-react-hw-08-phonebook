@@ -14,7 +14,6 @@ export const fetchContacts = createAsyncThunk(
   async (_, thunkAPI) => {
     try {
       const response = await axios.get('/contacts');
-      console.log(response.data);
       setAuthHeader(response.data.token);
       return response.data;
     } catch (error) {
@@ -28,7 +27,6 @@ export const addContact = createAsyncThunk(
   async (contact, thunkAPI) => {
     try {
       const response = await axios.post('/contacts', contact);
-      console.log(response);
       setAuthHeader(response.data.token);
       return response.data;
     } catch (error) {
