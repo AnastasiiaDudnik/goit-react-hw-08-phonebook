@@ -1,7 +1,7 @@
 import { useDispatch } from 'react-redux';
 import { register } from 'redux/auth/operations';
 
-export const LoginForm = () => {
+export const RegisterForm = () => {
   const dispatch = useDispatch();
 
   const handleSubmit = evt => {
