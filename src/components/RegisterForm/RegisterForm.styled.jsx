@@ -59,6 +59,11 @@ export const PasswordIcon = styled(TbPassword)`
   stroke-width: 1, 5px;
 `;
 
+export const ErrorMessage = styled.div`
+  color: red;
+  font-size: 14px;
+`;
+
 export const Field = styled(FormikField)`
   background-color: #303245;
   border-radius: 12px;
