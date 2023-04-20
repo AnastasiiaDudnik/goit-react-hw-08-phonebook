@@ -11,4 +11,5 @@ export const Header = styled.header`
   margin-bottom: 12px;
   color: #fff;
   border-bottom: 1px solid black;
+  justify-content: space-between;
 `;

@@ -15,5 +15,5 @@ export const Button = styled.button`
   padding: 10px;
   border-radius: 5px;
   border: 2px solid lightgreen;
-  background-color: lightpink;
+  background-color: white;
 `;

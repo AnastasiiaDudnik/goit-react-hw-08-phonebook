@@ -1,14 +1,13 @@
 import styled from 'styled-components';
 import { NavLink } from 'react-router-dom';
 
-export const Nav = styled.nav`
+export const AuthWrap = styled.div`
   display: flex;
   align-items: center;
-  justify-content: center;
   gap: 12px;
 `;
 
-export const Link = styled(NavLink)`
+export const AuthLink = styled(NavLink)`
   padding: 8px 16px;
   border-radius: 4px;
   text-decoration: none;
