@@ -1,5 +1,5 @@
 import { useDispatch } from 'react-redux';
-import { Formik, Form, ErrorMessage } from 'formik';
+import { Formik, Form } from 'formik';
 import { register } from 'redux/auth/operations';
 import {
   RegisterWrap,
