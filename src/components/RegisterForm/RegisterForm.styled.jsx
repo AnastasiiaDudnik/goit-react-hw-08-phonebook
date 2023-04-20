@@ -1,8 +1,9 @@
 import styled from 'styled-components';
 import { BiUser, BiMailSend } from 'react-icons/bi';
 import { TbPassword } from 'react-icons/tb';
+import { Field as FormikField } from 'formik';
 
-export const Form = styled.form`
+export const RegisterWrap = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,7 +25,7 @@ export const Title = styled.p`
   font-family: sans-serif;
   font-size: 36px;
   font-weight: 600;
-  margin-top: 30px;
+  margin: 0;
 `;
 
 export const Subtitle = styled.p`
@@ -33,6 +34,7 @@ export const Subtitle = styled.p`
   font-size: 16px;
   font-weight: 600;
   margin-top: 10px;
+  margin-bottom: 45px;
 `;
 
 export const Label = styled.label`
@@ -57,16 +59,17 @@ export const PasswordIcon = styled(TbPassword)`
   stroke-width: 1, 5px;
 `;
 
-export const Input = styled.input`
+export const Field = styled(FormikField)`
   background-color: #303245;
   border-radius: 12px;
   border: 0;
   color: #eee;
   font-size: 18px;
-  height: 100%;
+  height: 40px;
   outline: 0;
   padding: 4px 20px 0;
   width: 280px;
+  margin-bottom: 10px;
 `;
 
 export const RegisterBtn = styled.button`
@@ -77,7 +80,7 @@ export const RegisterBtn = styled.button`
   cursor: pointer;
   font-size: 18px;
   height: 50px;
-  margin-top: 20px;
+  margin-top: 40px;
   text-align: center;
   width: 100%;
 
