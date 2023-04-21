@@ -13,12 +13,12 @@ export const Link = styled(NavLink)`
   border-radius: 4px;
   text-decoration: none;
   color: white;
-  border: 1px solid #abe3ab;
-  background-color: #abe3ab;
+  background-color: black;
   font-weight: 500;
+  zoom: 150%;
   &.active {
-    background-color: lightpink;
-    border: 1px solid lightpink;
-    zoom: 0.8;
+    background-color: white;
+    color: black;
+    border-bottom: 2px solid #e73eca;
   }
 `;
