@@ -17,14 +17,15 @@ const Contacts = () => {
   }, [dispatch]);
 
   return (
-    <>
+    <div>
       <h2>Your contacts</h2>
       {isLoading && !error && <PropagateLoader />}
       <Filter />
       <ContactList />
 
+      <h2>Create new contacts</h2>
       <ContactForm />
-    </>
+    </div>
   );
 };
 
