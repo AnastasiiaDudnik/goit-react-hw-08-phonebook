@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/goit-react-hw-08-phonebook/static/css/main.7acaea2f.css",
-    "main.js": "/goit-react-hw-08-phonebook/static/js/main.9a3bd42c.js",
+    "main.js": "/goit-react-hw-08-phonebook/static/js/main.cfabddb4.js",
     "static/js/204.5cab7231.chunk.js": "/goit-react-hw-08-phonebook/static/js/204.5cab7231.chunk.js",
-    "static/js/690.42f1255d.chunk.js": "/goit-react-hw-08-phonebook/static/js/690.42f1255d.chunk.js",
+    "static/js/309.694368ed.chunk.js": "/goit-react-hw-08-phonebook/static/js/309.694368ed.chunk.js",
     "static/js/937.73b337a3.chunk.js": "/goit-react-hw-08-phonebook/static/js/937.73b337a3.chunk.js",
     "static/js/836.d9381f04.chunk.js": "/goit-react-hw-08-phonebook/static/js/836.d9381f04.chunk.js",
     "static/js/705.a9d6fb25.chunk.js": "/goit-react-hw-08-phonebook/static/js/705.a9d6fb25.chunk.js",
     "static/js/610.7153cb1a.chunk.js": "/goit-react-hw-08-phonebook/static/js/610.7153cb1a.chunk.js",
     "index.html": "/goit-react-hw-08-phonebook/index.html",
     "main.7acaea2f.css.map": "/goit-react-hw-08-phonebook/static/css/main.7acaea2f.css.map",
-    "main.9a3bd42c.js.map": "/goit-react-hw-08-phonebook/static/js/main.9a3bd42c.js.map",
+    "main.cfabddb4.js.map": "/goit-react-hw-08-phonebook/static/js/main.cfabddb4.js.map",
     "204.5cab7231.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/204.5cab7231.chunk.js.map",
-    "690.42f1255d.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/690.42f1255d.chunk.js.map",
+    "309.694368ed.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/309.694368ed.chunk.js.map",
     "937.73b337a3.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/937.73b337a3.chunk.js.map",
     "836.d9381f04.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/836.d9381f04.chunk.js.map",
     "705.a9d6fb25.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/705.a9d6fb25.chunk.js.map",
@@ -20,6 +20,6 @@
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.9a3bd42c.js"
+    "static/js/main.cfabddb4.js"
   ]
 }
