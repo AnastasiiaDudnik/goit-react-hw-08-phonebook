@@ -1,4 +1,12 @@
 import styled from 'styled-components';
+import { Avatar } from '@chakra-ui/avatar';
+
+export const StyledAvatar = styled(Avatar)`
+  width: 50px;
+  & > svg {
+    color: #db96b3;
+  }
+`;
 
 export const UserWrap = styled.div`
   display: flex;
@@ -13,9 +21,10 @@ export const UserName = styled.p`
 export const LogoutBtn = styled.button`
   padding: 8px 16px;
   border-radius: 4px;
+  border: none;
   text-decoration: none;
-  color: black;
-  border: 2px solid rgb(143 41 185);
-  background-color: white;
+  color: white;
+  background-color: rgb(114 20 109);
   font-weight: 500;
+  zoom: 150%;
 `;
